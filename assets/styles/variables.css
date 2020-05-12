@@ -1,0 +1,8 @@
+:root {
+	--c-white: white;
+	--c-black: black;
+	--c-yellow: #ffb54b;
+	--c-yellow-gradient: linear-gradient(100deg, #ffb54b, #f3af34);
+	--c-gray-light: rgba(255, 255, 255, .5);
+	--c-gray-dark: #979797;
+}

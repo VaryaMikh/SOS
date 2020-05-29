@@ -1,6 +1,6 @@
 :root {
 	--c-white: white;
-	--c-black: black;
+	--c-black: #1a1917;
 	--c-yellow: #ffb54b;
 	--c-yellow-gradient: linear-gradient(100deg, #ffb54b, #f3af34);
 	--c-gray-light: rgba(255, 255, 255, .5);

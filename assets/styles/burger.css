@@ -1,0 +1,22 @@
+.burger {
+	display: none;
+	height: 25px;
+	width: 25px;
+}
+
+.burger__stick {
+	width: 25px;
+	height: 2.5px;
+	background: var(--c-white);
+	border-radius: 3px;
+}
+
+.burger__stick.-s{
+	width: 15px;
+}
+
+@media screen and (max-width: 767px) {
+	.burger {
+		display: block;
+	}
+}

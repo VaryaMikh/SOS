@@ -7,3 +7,13 @@ section {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+section.-hero {
+	background-image: url(../img/bgContent.jpg);
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+section.-battle {
+	background-image: url(../img/bgBattle.jpg);
+}

@@ -16,3 +16,31 @@ header {
 	font-weight: bold;
 	color: white;
 }
+
+.header__info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__lang {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.header__lang:before {
+	border: 1.4px solid #FFFFFF;
+}
+
+.header__partners {
+	margin-left: 25px;
+}
+
+@media screen and (max-width: 767px) {
+	.header__partners, .nav {
+		display: none;
+	}
+}

@@ -4,17 +4,22 @@
 	<title></title>
 	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/base.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/variables.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/container.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/section.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/btn.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/scroll-down.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/header.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/nav.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/content.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/burger.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/battle.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<section class="hero">
+	<section class="-hero">
 		<div class="container">
 			<header class="header">
 				<img src="./assets/img/headerLogo.png" class="header__logo">
@@ -37,12 +42,46 @@
 							<img src="./assets/img/headerImg2.svg" class="header__img">
 						</a>
 					</div>
+					<div class="burger">
+						<i class="burger__stick"></i>
+						<i class="burger__stick"></i>
+						<i class="burger__stick -s"></i>
+					</div>
 				</div>
 			</header>
+		</div>
+		<div class="container">
 			<div class="content">
 				<h1 class="content__title">survive at all costs</h1>
 				<h3 class="content__subtitle">experience new social battle royale game</h3>
 				<a class="btn">Buy on Steam <i class="btn__divider"></i> 14.59$</a>
+			</div>
+		</div>
+		<div class="container">
+			<div class="scroll-down">
+				<a href="#" class="scroll-down__title">the story</a> 
+				<img src="./assets/img/scroll-down.svg" class="scroll-down__img">
+			</div>
+		</div>
+	</section>
+
+	<section class="-battle">
+		<div class="container">
+			<div class="battle__content">
+				<div class="battle__info">
+					<h3 class="battle__subtitle">what is sos?</h3>
+					<h2 class="battle__title">sociale battle royale game</h2>
+					<div class="battle__stick"></div>
+					<div class="battle__description">
+						<p class="battle__desc">Each round, <b>you</b> and <b>15</b> other contestants compete to escape a deadly island filled with monsters. The trick is: three people can survive. Will you run solo or form friendships with others to escape?</p>
+						<p class="battle__desc">Making the right decisions could be the difference between life and death.</p>
+					</div>
+				</div>
+				<div class="battle__images">
+					<img src="./assets/img/battleImg1.png">
+					<!-- <img src="./assets/img/battleImg2.png"> -->
+					<!-- <img src="./assets/img/battleImg3.png"> -->
+				</div>
 			</div>
 		</div>
 	</section>

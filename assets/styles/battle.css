@@ -1,0 +1,45 @@
+.battle__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--c-white);
+}
+
+.battle__info, .battle__images {
+	width: 45%;
+}
+
+.battle__subtitle {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.battle__title {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: bold;
+	font-size: 80px;
+	text-transform: uppercase;
+}
+
+.battle__stick {
+	width: 715px;
+	height: 3px;
+	background: var(--c-white);
+	border-radius: 4px;
+}
+
+.battle__description {
+	width: 350px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
+}
+
+.battle__desc {
+	font-family: Open Sans;
+	font-weight: normal;
+	font-size: 18px;
+	text-align: justify;
+}

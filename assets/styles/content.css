@@ -20,6 +20,12 @@
 	font-size: 24px;
 }
 
+.info.-features {
+	display: flex;
+	justify-content: flex-end;
+	color: var(--c-white);
+}
+
 @media screen and (max-width: 767px) {
 	.content__title {
 		font-size: 33px;

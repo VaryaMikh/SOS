@@ -17,3 +17,7 @@ section.-hero {
 section.-battle {
 	background-image: url(../img/bgBattle.jpg);
 }
+
+section.-features {
+	background-image: url(../img/bgFeatures.jpg);
+}
